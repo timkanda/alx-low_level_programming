@@ -13,7 +13,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	printf("Enter the number n: ");
-	scanf("%d, $n");
+	scanf("%d", $n);
 
 
 	if (n > 0)
