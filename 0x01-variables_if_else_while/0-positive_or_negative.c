@@ -12,7 +12,8 @@ int main()
 	n = rand() - RAND_MAX / 2;
 	
 	printf("Enter the number n: ");
-	scanf ("%d , $n");
+	scanf("%d , $n");
+
 
 	if (n > 0)
 		printf("%d is positive." , n);
