@@ -9,12 +9,10 @@ int main(void)
 {
 	int num;
 
-	while (num != 0)
+	for (num = 0; num < 10; num++)
 	{
-		int digit = num % 10;
-
-		num = num / 10;
-		printf("%d\n", digit);
+		printf("%d\n", num);
 	}
+
 	return (0);
 }
