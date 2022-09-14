@@ -7,9 +7,16 @@
  */
 int main(void)
 {
-	char alphabet = 'a' && 'A';
+	char alphabet = 'a';
 
-	while (alphabet <= 'z' && 'Z')
+	while (alphabet <= 'z')
+	{
+		putchar(alphabet);
+		alphabet++;
+	}
+	alphabet = 'A';
+
+	while (alphabet <= 'Z')
 	{
 		putchar(alphabet);
 		alphabet++;
