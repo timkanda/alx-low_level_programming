@@ -1,16 +1,15 @@
 #include "main.h"
 
 /**
-*main - Entry point
+*printputchar- prints _putchar
 *
 *Return: void
 */
 int main(void)
 {
-	char ch;
-
-	for (ch = '_putchar');
+	char ch = 'k';
 
 	_putchar(ch);
-	return (o);
+	return (0);
 }
+

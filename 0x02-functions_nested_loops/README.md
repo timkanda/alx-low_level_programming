@@ -1,1 +1,1 @@
-learning nested loops
+functions and loops
