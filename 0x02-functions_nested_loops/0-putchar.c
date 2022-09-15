@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
-*printputchar- prints _putchar
+*main - Entry point
 *
 *Return: void
 */
 int main(void)
 {
-	char ch = 'k';
+	char ch[] = {"_putchar"};
 
 	_putchar(ch);
 	return (0);
