@@ -9,7 +9,7 @@ void times_table(void)
 {
 	int ro, col, a;
 
-	for (ro = 0; ro < 9; ro++)
+	for (ro = 0; ro < 10; ro++)
 	{
 		_putchar('0');
 		_putchar(',');
@@ -27,7 +27,7 @@ void times_table(void)
 			}
 			_putchar((a % 10) + '0');
 
-			if (col <= 9)
+			if (col < 9)
 			{
 				_putchar(',');
 				_putchar(' ');
