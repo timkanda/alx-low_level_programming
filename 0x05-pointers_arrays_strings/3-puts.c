@@ -8,6 +8,6 @@
 */
 void _puts(char *str)
 {
-	str = "I love using betty to check my code";
+	str = "";
 	puts(str);
 }
