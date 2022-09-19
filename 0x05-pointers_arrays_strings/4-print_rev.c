@@ -7,7 +7,8 @@
 */
 void print_rev(char *s)
 {
-	*s = "";
-
-	print_rev(s);
+	if (*s)
+	{
+		print_rev(s + 1);
+	}
 }
