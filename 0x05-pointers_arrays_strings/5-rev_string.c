@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <string.h>
 /**
 *rev_string - reverses a string
 *@s: the string to reverse
@@ -10,7 +10,7 @@ void rev_string(char *s)
 	int length, c;
 	char *begin, *end, temp;
 
-	length = (*s);
+	length = strlen(s);
 	begin = s;
 	end = s;
 
