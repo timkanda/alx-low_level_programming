@@ -16,7 +16,7 @@ void print_triangle(int size)
 	else
 	{
 		for  (he = 0; he <= (size - 1); he++)
-
+		{
 			for (le = 0; le < (size - 1) - he; le++)
 			{
 				_putchar(' ');
@@ -27,5 +27,6 @@ void print_triangle(int size)
 		}
 
 		_putchar('\n');
+		}
 	}
 }
