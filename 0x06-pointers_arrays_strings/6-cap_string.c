@@ -19,7 +19,7 @@ char *cap_string(char *a)
 			a[i] = a[i] - cap;
 		}
 
-		cap = 32;
+		cap = 0;
 
 		for (y = 0; y <= 13; y++)
 		{
