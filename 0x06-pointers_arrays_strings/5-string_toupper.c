@@ -2,14 +2,12 @@
 
 /**
 *string_toupper - lowercase to uppercase
-*
+*@k: character input
 *Return: capitalized string
 */
-char *string_toupper(char *)
+char *string_toupper(char *k)
 {
 	int i;
-
-	char * = k;
 
 	for (i = 0; k[i] != '\0'; i++)
 	{
