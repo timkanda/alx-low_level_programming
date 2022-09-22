@@ -9,7 +9,8 @@ char *string_toupper(char *)
 {
 	int i;
 
-	*string_toupper(char *) = k;
+	char * = k;
+
 	for (i = 0; k[i] != '\0'; i++)
 	{
 		if (k[i] >= 'a' && k[i] <= 'z')
