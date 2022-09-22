@@ -10,7 +10,7 @@ char *cap_string(char *a)
 	int i, y;
 
 	int cap = 32;
-	int separators[] = {',', ';', '.', '!', '?', '"',
+	int separators[] = {',', ';', '.', '?', '"',
 		'(', ')', '{', '}', ' ', '\n', '\t', };
 	for (i = 0; a[i] != '\n'; i++)
 	{
