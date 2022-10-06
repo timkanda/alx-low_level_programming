@@ -25,7 +25,7 @@ int sroot(int n, int x)
 	else if (x * x == n)
 		return (x);
 	else
-		return (sroot(x, x - 1));
+		return (sroot(n, x - 1));
 }
 
 
