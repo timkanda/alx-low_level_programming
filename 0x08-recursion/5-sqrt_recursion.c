@@ -1,5 +1,5 @@
 #include "main.h"
-
+int sroot(int n, int x);
 /**
 *_sqrt_recursion - returns the natural square root of a number
 *@n: input
@@ -10,5 +10,32 @@ int _sqrt_recursion(int n)
 	if (n < 0)
 		return (-1);
 	else
-		return (_sqrt_recursion(n));
+		return (sroot(n, (n + 1) / 2));
 }
+/**
+*sroot - checks if number is perfect square
+*@n: input
+*@x: input
+*Return: returns if square root
+*/
+int sroot(int n, int x)
+{
+	if (x < 1)
+		return (-1);
+	else if (x * x == n)
+		return (x);
+	else
+		return (sroot(x, x - 1));
+}
+
+
+
+
+
+
+
+
+
+
+
+
