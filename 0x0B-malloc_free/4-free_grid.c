@@ -7,7 +7,7 @@
 *@grid: integer input
 *@height: integer input
 *
-*Return: free grid
+*Return: Always 0
 */
 void free_grid(int **grid, int height)
 {
