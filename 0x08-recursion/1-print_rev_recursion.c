@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
 *_print_rev_recursion - a function that prints string in reserve
 *@s: input
 *Return: Always 0
