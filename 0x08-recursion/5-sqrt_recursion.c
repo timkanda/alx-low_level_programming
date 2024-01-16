@@ -10,7 +10,7 @@ int _sqrt_recursion(int n)
 	if (n < 0)
 		return (-1);
 	else
-		return (sroot(n, (n + 1) / 2));
+		return (sroot(n, n / 2));
 }
 /**
 *sroot - checks number if perfect square
