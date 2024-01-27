@@ -7,13 +7,9 @@
 *@argv: array of arguments
 *Return: 0
 */
-int main(int argc, __attribute__((unused)) char *argv[])
+int main(int argc, char *argv[])
 {
-	int i;
+	printf("%d", argc -1);
 
-	for (i = 0; i < argc; i++)
-	{
-	}
-	printf("%d\n", i -1);
-	return (0);
+	return 0;
 }
