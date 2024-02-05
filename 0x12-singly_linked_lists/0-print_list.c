@@ -2,7 +2,7 @@
 
 /**
 *print_list - prints all elements in a list
-*h: pointer
+*@h: pointer
 *Return: number of nodes
 */
 size_t print_list(const list_t *h)
